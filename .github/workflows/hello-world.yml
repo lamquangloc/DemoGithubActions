@@ -10,7 +10,7 @@ jobs:
 
       steps: 
         - name: Bước 1 - Xin chào
-          run: echo"Hello World"   #Lệnh in ra màn hình
+          run: echo "Hello World"   #Lệnh in ra màn hình
         
         - name: Bước 2 - Tải code
           run: actions/checkout@v6.0.2   #Robot tự động copy code vào máy ảo
